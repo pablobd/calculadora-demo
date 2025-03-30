@@ -15,4 +15,9 @@ class CalculadoraTest {
     void suma() {
         assertEquals(calculadora.suma(3, 6), 9);
     }
+
+    @Test
+    void resta(){
+        assertEquals(calculadora.resta(10, 4), 6);
+    }
 }
