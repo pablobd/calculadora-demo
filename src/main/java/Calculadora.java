@@ -8,6 +8,7 @@ public class Calculadora {
     }
 
     int resta(int n1, int n2){
-        return 10;
+        int resta = n1 - n2;
+        return resta;
     }
 }
